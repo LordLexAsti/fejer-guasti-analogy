@@ -1,0 +1,80 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce travail, veuillez le citer comme suit."
+type: article
+title: "Analogie Fejér-Guasti : lissage spectral arithmétique"
+authors:
+  - family-names: Guasti
+    given-names: Alexandre
+    affiliation: Chercheur indépendant
+    city: Lyon
+    country: FR
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # À remplacer par ton ORCID réel si tu en as un
+repository-code: "https://github.com/LordLexAsti/fejer-guasti-analogy"
+abstract: >
+  Nous établissons une analogie structurelle profonde entre le noyau de Fejér
+  en analyse harmonique et la Transformée de Guasti en théorie arithmétique.
+  Tout comme Fejér a résolu le problème des oscillations de Gibbs par un lissage
+  spectral des séries de Fourier, la Transformée de Guasti fournit un opérateur
+  de normalisation qui transforme la distribution chaotique des diviseurs en
+  signatures spectrales harmonieuses et comparables. Nous formalisons cette
+  analogie par un théorème de décroissance spectrale, établissons une formule
+  asymptotique exacte pour les nombres premiers (G₂(p) = (2√2/p)·i + O(1/p²)),
+  et démontrons l'existence d'une moyenne spectrale universelle C₁ ≈ 2.135.
+keywords:
+  - théorie des nombres
+  - transformée de Guasti
+  - noyau de Fejér
+  - lissage spectral
+  - nombres premiers
+  - analyse harmonique arithmétique
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+version: 1.0.0
+date-released: "2026-05-23"
+doi: 10.XXXX/XXXXX  # À remplacer une fois publié
+identifiers:
+  - type: url
+    value: "https://github.com/LordLexAsti/fejer-guasti-analogy"
+    description: "Dépôt GitHub du projet"
+preferred-citation:
+  type: article
+  title: "Analogie Fejér-Guasti : lissage spectral arithmétique"
+  authors:
+    - family-names: Guasti
+      given-names: Alexandre
+  year: 2026
+  journal: "arXiv preprint"
+  arxiv: "XXXX.XXXXX"  # À remplacer une fois soumis
+  url: "https://arxiv.org/abs/XXXX.XXXXX"
+references:
+  - type: article
+    title: "Sur les fonctions bornées et intégrables"
+    authors:
+      - family-names: Fejér
+        given-names: Leopold
+    year: 1900
+    journal: "Comptes Rendus Acad. Sci. Paris"
+    volume: 131
+    start: 984
+    end: 987
+  - type: article
+    title: "Über die Gleichverteilung von Zahlen mod. Eins"
+    authors:
+      - family-names: Weyl
+        given-names: Hermann
+    year: 1916
+    journal: "Mathematische Annalen"
+    volume: 77
+    start: 313
+    end: 352
+  - type: book
+    title: "An Introduction to the Theory of Numbers"
+    authors:
+      - family-names: Hardy
+        given-names: Godfrey Harold
+      - family-names: Wright
+        given-names: Edward Maitland
+    year: 2008
+    edition: 6
+    publisher:
+      name: "Oxford University Press"
